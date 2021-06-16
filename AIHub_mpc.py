@@ -151,7 +151,7 @@ class MPC:
         nlp = {
             'f': total_cost, # objective function
             'x': ca.vertcat(ca.reshape(X,3*(N_horizon+1),1), ca.reshape(U,2*N_horizon,1)), # decision varibles as one vector
-            'g': ca.horzcat(econst, oconst), # constraints TODO: rethink row vs column vectors, make consistent
+            'g': ca.horzcat(econst, oconst), # constraints
             'p': ca.vertcat(x_init, x_goal), # parameters to pass to the optimization
         }
 
