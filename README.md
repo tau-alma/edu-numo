@@ -19,10 +19,10 @@ It is recommended to create a new python virtual envinronment for this. Both [ve
 In addition to Casadi library, [numpy](https://numpy.org/), [matplotlib](https://matplotlib.org/) and [scipy](https://www.scipy.org/) are required dependences.
 PLease install those into the virtual envinronment before use. For example:
 
-With venv:
+With venv (in Windows):
 
     python -m venv path_to_my_envs/aihub
-    path-to-my-envs/aihub/activate
+    path-to-my-envs/aihub/Scripts/activate
     python -m pip install numpy scipy matplotlib casadi
 
 or if using conda:
