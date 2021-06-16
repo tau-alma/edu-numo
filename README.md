@@ -34,7 +34,7 @@ or if using conda:
 
  There are 3 different examples:
 
-   * AIHub_Circle2rect.py - basic casadi usege to solve optimization problem.
+   * AIHub_Circle2rect.py - basic Casadi usage to solve optimization problem.
    * AIHub_trajectory_optimization.py - trajectory optimization with different constraints.
    * AIHub_mpc.py - (simple) model predictive control.
 
